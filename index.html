@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Responsive 404 page website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav nav--container">
+        <a href="#" class="nav--logo">XCOMPANY</a>
+        <div class="nav--menu" id="nav-menu">
+          <ul class="nav--list">
+            <li>
+              <a href="" class="nav--link">HOME</a>
+            </li>
+            <li>
+              <a href="" class="nav--link">ABOUT US</a>
+            </li>
+            <li>
+              <a href="" class="nav--link">COMMUNITY</a>
+            </li>
+            <li>
+              <a href="" class="nav--link"> NEWS</a>
+            </li>
+            <li>
+              <a href="" class="nav--link">CONTACT</a>
+            </li>
+          </ul>
+          <!-- close button -->
+          <div class="nav--close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+        <!-- Toggle button -->
+        <div class="nav--toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+        <div class="home--container container">
+          <div class="home--data">
+            <h3 class="home--subtitle">Unknown Zone</h3>
+            <h1 class="home--title">ERROR 404</h1>
+            <p class="home--description">
+              We can't seem to find the page you're looking for, you need to
+              come back to earth.
+            </p>
+            <a href="" class="home--button">Return To Earth</a>
+          </div>
+          <div class="home--images">
+            <div class="home--blob home--blob-1">
+              <img
+                src="spacecraft.png"
+                alt="image"
+                class="home--img home--img-1"
+              />
+            </div>
+            <div class="home--blob home--blob-2">
+              <img
+                src="planet-1.png"
+                alt="image"
+                class="home--img home--img-2"
+              />
+            </div>
+            <div class="home--blob home--blob-3">
+              <img
+                src="planet-2.png"
+                alt="image"
+                class="home--img home--img-3"
+              />
+            </div>
+            <div class="home--blob home--blob-4">
+              <img
+                src="astronaut.png"
+                alt="image"
+                class="home--img home--img-4"
+              />
+            </div>
+            <img src="ufo.png" alt="" class="home--img-5" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== GSAP ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="script.js"></script>
+  </body>
+</html>
